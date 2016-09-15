@@ -394,7 +394,7 @@ func main() {
 	generateCodeCoverage := (generateCodeCoverageFiles == "yes")
 	exportUITestArtifacts := (exportUITestArtifactsStr == "true")
 	singleBuild := (isSingleBuild == "true")
-	buildBeforeTest := (shouldBuildBeforeTest == "yes")
+	buildBeforeTest := false
 
 	fmt.Println()
 
